@@ -1,0 +1,15 @@
+{
+  "name": "sncore",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Web core by Simple Network",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "yaml": "^2.3.4",
+    "mime-types": "^2.1.35"
+  }
+}
